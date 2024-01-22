@@ -2,25 +2,25 @@
 
 - Create React App
 - Configured TailwindCSS
-
-
-
+- Header
+- Login Form
 
 # Features
 
 - Login/Sign Up
-    - Sign In/Sign up Form
-    - redirect to Browse Page
+
+  - Sign In/Sign up Form
+  - redirect to Browse Page
 
 - Browse Page (after authentication)
-    - Header
-    - Main Movie
-        - Trailer in Background
-        - Title & Description
-        - MovieSuggestions
-            - MovieLists * N (Lot of Movies)
+
+  - Header
+  - Main Movie
+    - Trailer in Background
+    - Title & Description
+    - MovieSuggestions
+      - MovieLists \* N (Lot of Movies)
 
 - NetflixGPT
-    - Search Bar
-    - Movies Suggestions
-    
+  - Search Bar
+  - Movies Suggestions
