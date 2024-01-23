@@ -3,7 +3,8 @@
 - Create React App
 - Configured TailwindCSS
 - Header
-- Login Form
+- Login Form : Email & Password
+- Sign Up Form : Name, Email & Password
 
 # Features
 
