@@ -23,13 +23,27 @@
 - Custom Hook for Now Playing Movies
 - Create movieSlice
 - Update Store with movies Data
-- Planning for MainContainer & Secondary container
+- Planning for MainContainer & Secondary container :
+
+* - MovieList - Popular
+* - MovieCard \* n
+* - MovieList - Now Playing
+* - MovieList - Trending
+* - MovieList - Horror
+
 - Fetch Data for Trailer Video
 - Update Store with Trailer Video Data
 - Embedded the YouTube video and make it autoplay and mute
 - Tailwind Classes to make Main container look awesome
-
-
+- Secondary container
+- Build Secondary Component
+- Buil the Movie List
+- Build Movie Card
+- TMDB Image CDN URL
+- MOde the browse page amazing With Tailwind CSS
+- usePopularMovies Custome Hook
+- useTopRatedMovies Custome Hook
+- useUpComingMovies Custome Hook
 
 ```jsx
 export const checkValidData = (email, password) => {
