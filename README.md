@@ -47,6 +47,7 @@
 - GPT Search Page
 - GPT Search Bar
 - Multi-language Feature in our App
+- 
 
 ```jsx
 export const checkValidData = (email, password) => {
