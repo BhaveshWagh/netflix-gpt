@@ -15,7 +15,7 @@ import { addUser } from "../utils/userSlice";
 const Login = () => {
   const [isSignInForm, setIsSignInForm] = useState(true);
   const [errorMessage, setErrorMessage] = useState("");
- 
+
   const dispatch = useDispatch();
   const name = useRef(null);
   const email = useRef(null);
@@ -23,7 +23,7 @@ const Login = () => {
 
   const handleFormSubmit = () => {
     // Validate the form data
-    // console.log(email.current.value);
+    // clg: email.current.value
 
     const message = checkValidData(email.current.value, password.current.value);
     setErrorMessage(message);
@@ -62,14 +62,11 @@ const Login = () => {
               // An error occurred
               setErrorMessage(error.message);
             });
-          // console.log(user);
         })
         .catch((error) => {
           const errorCode = error.code;
           const errorMessage = error.message;
           setErrorMessage(errorCode + "-" + errorMessage);
-          // console.log("Error : ", errorCode + errorMessage);
-          // ..
         });
     } else {
       // Sign In Logic
@@ -82,8 +79,6 @@ const Login = () => {
         .then((userCredential) => {
           // Signed in
           const user = userCredential.user;
-          // console.log(user);
-          
         })
         .catch((error) => {
           const errorCode = error.code;
